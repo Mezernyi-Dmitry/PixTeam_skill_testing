@@ -1,0 +1,442 @@
+body
+	width: 100%
+	height: 100%
+	background-color: #ffffff
+
+//ХЕДЕР
+.header
+	height: 950px
+	width: 100%
+	display: inline-flex
+	flex-direction: column
+	justify-content: space-between
+	align-items: center
+	
+.header__slider
+	height: 800px !important
+	min-height: 800px !important
+	
+.slides-pagination
+	display: none !important
+
+.header__content
+	position: absolute
+	z-index: 10
+	display: inline-flex
+	flex-direction: column
+	justify-content: space-between
+	align-items: center
+
+.header__content__logo
+	width: 300px
+	margin-bottom: -3px 
+	padding-top: 68px
+
+.header__content__logo>img
+	margin-left: calc(50% - 136.5px)
+
+.header_slider
+	width: 100%
+	height: 100%
+
+.header__content__text
+	margin-top: 74px
+
+.header__content__text__p
+	font-size: 49px
+	text-transform: uppercase
+	color: #ffffff
+	font-family: 'Open Sans', sans-serif
+	text-align: center
+
+
+.header__content__text__p_bold
+	font-weight: 700
+
+.header__content__call
+	height: 335px
+	width: 335px
+	box-shadow: 0 1px rgba(0,0,0,0.1)
+	background-color: #ffffff
+	border: solid
+	border-color: #e6e6e6
+	border-width: 1px
+	border-radius: 3px
+	margin-top: 60px
+
+.header__content__call__input
+	width: 264px
+	margin-left: calc(50% - 132px)
+	margin-top: 29px
+	margin-bottom: 23px
+	border-radius: 3px
+	border-width: 1px
+	height: 36px
+
+.header__content__call_image
+	background: url(../images/header/call.jpg)
+	background-position: center center
+	background-size: cover
+	height: 87px
+	width: 100%
+
+.header__content__call__p 
+	text-align: center
+	font-size: 15.35px
+	font-family: 'Open Sans', sans-serif
+	color: #a4a0a0
+	margin-top: 31px
+
+.header__content__call__button
+	margin-top: 28px
+	margin-left: calc(50% - 96px)
+
+.header__content__call__button:hover
+	width: 200px
+	margin-left: calc(50% - 100px)
+
+.header__content__call__button:active
+	width: 188px
+	margin-left: calc(50% - 94px)
+
+//ОБЛОЖКА
+.wrapper
+	width: 100%
+	display: inline-flex
+	flex-direction: column
+	justify-content: space-between
+	align-items: center
+	
+.wrapper__sec
+	width: 100%
+	height: 100%
+	background: url(../images/wrapper/bg.jpg)
+	background-position: center center
+	background-size: cover
+	display: inline-flex
+	flex-direction: column
+	justify-content: space-around
+	align-items: center
+
+
+//КАРУСЕЛЬ
+.wrapper__boxes
+	width: 69% !important
+	background: white
+	
+.wrapper__boxes__box
+	width: 390px
+
+.wrapper__boxes__box__image
+	float: left
+	width: 100px
+
+.wrapper__boxes__box__text
+	margin-left: 135px
+
+.wrapper__boxes__box__text>h1
+	font-size: 27.35px
+	font-weight: 600
+	font-family: 'Open Sans', sans-serif
+
+.wrapper__boxes__box__text>p
+	font-size: 14px
+	font-family: 'Open Sans', sans-serif
+
+.wrapper__sec
+	width: 100%
+	height: 1350px
+	background: url(../images/wrapper/bg/bg.jpg)
+	background-size: 100% 100%
+	margin-top: 20px
+	color: #ffffff
+
+.wrapper__sec_h
+	font-family: 'Open Sans', sans-serif
+	font-weight: 600
+	font-size: 39.35px
+
+.wrapper__sec-1>p,
+.wrapper__sec-2>p
+	font-family: 'Open Sans', sans-serif
+	font-size: 14px
+
+//СЕКЦИЯ 1
+.wrapper__sec-1
+	display: inline-flex
+	flex-direction: column
+	justify-content: space-around
+	align-items: center
+	width: 50%
+	margin-top: 7%
+	position: relative
+
+.wrapper__sec-1>img
+	margin-top: -160px
+	margin-left: -50%
+
+.wrapper__sec-1>h1
+	text-align: center
+	z-index: 5
+	margin-top: -290px
+
+	
+
+.wrapper__sec-1__p1
+	margin-top: 42px
+	z-index: 5
+	
+
+.wrapper__sec-1__p2
+	margin-top: 59px
+	z-index: 5
+	
+// СЕКЦИЯ 2
+.wrapper__sec-2
+	display: inline-flex
+	flex-direction: row
+	align-items: center
+
+.wrapper__sec-2>img
+	margin-bottom: -320px
+
+.wrapper__sec-2__text
+	width: 40%
+	margin-left: 3%
+
+.wrapper__sec-2__text>p
+	margin-top: 30px
+
+.wrapper__sec-2__text__button
+	margin-top: 63px
+
+.wrapper__sec-2__text__button:active
+	width: 200px
+
+.wrapper__sec-2__text__button:hover
+	width: 205px
+	
+//КАРТА
+.wrapper__map
+	width: 100%
+	height: 636px
+	position: relative
+
+#wrapper__map__script
+	height: 100%
+
+//ФОРМА
+.wrapper__contact
+	height: 430px
+	width: 430px
+	border-radius: 50%
+	background-color: white
+	z-index: 999999
+	position: absolute
+	left: calc(50% - 215px)
+	opacity: 0.8
+	display: block
+	top: 25%
+		
+.wrapper__contact__input
+	border-radius: 3px
+	border-width: 1px
+	width: 276px
+	margin-bottom: 14px
+	margin-left: calc(50% - 138px)
+	opacity: 1
+	font-family: 'Open Sans', sans-serif
+
+.wrapper__contact__input__name
+	margin-top: 112px
+	height: 32px
+
+.wrapper__contact__input__mail
+	height: 32px
+
+.wrapper__contact__input__messenge
+	height: 80px
+	overflow: auto
+	width: 272px
+
+.wrapper__contact__input__ok
+	margin-top: 32px
+	margin-left: calc(50% - 33.5px)
+	width: 67px
+
+.wrapper__contact__input__ok:hover
+	width: 70px
+	margin-left: calc(50% - 35px)
+
+.wrapper__contact__input__ok:active
+	width: 65px
+	margin-left: calc(50% - 32.5px)
+
+//ФУТЕР
+.footer
+	width: 100%
+	height: 45px
+	background-color: #43a06d
+	display: flex
+	align-items: center
+	justify-content: space-around
+
+.footer__p
+	font-family: 'Open Sans', sans-serif
+	font-size: 14px
+	color: #ffffff
+	
+//МЕДИА
+@media screen and (max-width: 1100px) 
+	.owl-item
+		display: flex
+		align-items: center
+		justify-content: space-around
+
+	.wrapper__sec-2__text>p
+		width: 70%
+
+@media screen and (max-width: 1000px) 
+	.wrapper__sec-1>img
+		margin-top: -100px
+		margin-left: -75%
+
+	.wrapper__sec-2>img
+		margin-left: -100px
+
+@media screen and (max-width: 900px) 
+	.wrapper__sec-1>img
+		margin-top: -60px
+		
+	.wrapper__sec-2>img
+		margin-left: -140px
+
+@media screen and (max-width: 800px) 
+	.wrapper__sec-1>img
+		margin-top: -80px
+		margin-left: -90%
+
+	.wrapper__sec-2>img
+		margin-left: -200px
+		width: 70%
+
+	.wrapper__sec-2__text>p
+		width: 100%
+
+@media screen and (max-width: 692px) 
+	.header__content__text__p
+		font-size: 40px
+
+@media screen and (max-width: 654px) 
+	.wrapper__sec-1>img
+		margin-top: -25px
+		margin-left: -100%
+
+	.wrapper__sec-2>img
+		margin-top: -100px
+
+@media screen and (max-width: 550px) 
+	.header__content__text__p
+		font-size: 30px
+
+	.wrapper__sec-1
+		width: 70%
+
+	.wrapper__sec-2__text
+		width: 50%
+
+	.wrapper__sec-1>img
+		margin-top: 0px
+		margin-left: -100%
+		
+	.wrapper__sec-2>img
+		margin-left: -150px
+		width: 70%
+
+@media screen and (max-width: 500px) 
+	.wrapper__sec_h
+		font-size: 25px
+
+	.wrapper__sec-1__p1
+		padding: 0 9px
+
+	.wrapper__sec-1__p2
+		padding: 0 9px
+
+	.wrapper__sec-1>img
+		margin-top: 45px
+		margin-left: -125%
+
+	.wrapper__sec-2>img
+		margin-left: -150px
+		width: 70%
+
+@media screen and (max-width: 450px) 
+	.wrapper__sec-1>img
+		display: none
+
+	.wrapper__sec-2>img
+		display: none
+
+	.wrapper__sec-2__text
+		width: 100%
+		display: inline-flex
+		flex-direction: column
+		align-items: center
+
+	.wrapper__sec-1
+		width: 100%
+
+	.wrapper__sec-1>h1
+		margin-top: 0px
+
+	.wrapper__contact
+		width: 300px
+		height: 300px
+		left: calc(50% - 150px)
+
+	.wrapper__contact__input__name
+		margin-top: 60px
+
+	.wrapper__contact__input
+		width: 200px
+		margin-left: calc(50% - 100px)
+
+	.wrapper__contact__input__ok
+		margin-top: -10px
+		margin-left: calc(50% - 20px)
+		width: 40px
+
+	.wrapper__contact__input__ok:hover
+		width: 43px
+		margin-left: calc(50% - 21.5px)
+
+	.wrapper__contact__input__ok:active
+		width: 37px
+		margin-left: calc(50% - 18.5px)
+
+	.wrapper__contact__input__messenge
+		width: 196px
+
+	.header__content__text__p
+		font-size: 20px
+
+	.wrapper__boxes__box__image>img
+		display: none !important
+
+	.wrapper__boxes__box__text
+		margin-left: 0px
+
+@media screen and (max-width: 350px) 
+	.header__content__call
+		width: 300px
+
+	.header__content__call_image
+		background: center center cover
+
+@import "../scripts/fslides/stylesheets/superslides.css"
+
+@import "../scripts/carousel/dist/assets/owl.carousel.css"
+
+@import "../scripts/carousel/dist/assets/owl.theme.default.css"
+
